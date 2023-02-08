@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: #FFFFFF;
+}
+.navbar-brand{
+    font-size: 1.6rem;
+}
+#navbarSupportedContent ul{
+font-size: 1.4rem;
+}
+.banner{
+    height: 25rem;
+    background-image: url('/images/Rectangle\ 1.png');
+    background-color: #C5EAD9;
+    display: flex;
+}
+.span-class{
+    color:#3BB77E;
+    font-weight: bolder;
+    font-family: 'Mukta', sans-serif;
+}
+.left {
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto 0.5rem;
+    padding:6rem;
+    width: 50%;
+    height: 100%;
+    margin-left: 0;
+}
+.left-texts h1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 4rem;
+}
+.left-texts p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+.right {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/Hreo-img.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    /* border: 1px solid black; */
+    margin: 0px 0px;
+    background-image: url('/images/Rectangle\ 1.png');
+    background-color:#C5EAD9;
+    opacity: 0.9;
+}
+.container .line1{
+    display: flex;
+    justify-content: space-around;
+}
+.line1 .section2{
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+.section2 ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-bottom: 0;
+    
+}
+.section2 ul li a{
+    text-decoration: none;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100%;
+}
+.section1 h2{
+    display: flex;
+   margin: auto 0;
+   margin-top: 0.4rem;
+}
+.line1{
+    background-color:black;
+    width: 100%;
+    color: #3BB77E;
+    height: 4rem;
+    border-radius: 1rem;
+    
+}
+
+
+/* -----------------media queries ----------- */
+@media screen and (max-width:1200px){
+    .left-texts h1 {
+        font-family: 'Mukta', sans-serif;
+        font-size: 3rem;
+    }
+    .line1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .section1 h2{
+        font-size: 1rem;
+    }
+    
+}
+@media screen and (max-width:985px) {
+    .left {
+        /* border: 1px solid rgb(57, 95, 219); */
+        display: flex;
+        margin: auto;
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/images/Hreo-img.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        font-weight: bolder;
+    }
+    .right {
+        display: none;
+    }
+    .left-texts h1 {
+        font-family: 'Mukta', sans-serif;
+        font-size: 3rem;
+    }
+    .banner{
+        height: 20rem;
+        background-image: url('/images/Rectangle\ 1.png');
+        background-color: #C5EAD9;
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+        width: 100%;
+    }
+
+.section2 ul {
+    gap: 0.3rem;
+    font-size: 0.6rem;
+}
+.section1 h2 {
+    font-size: 0.7rem;
+    margin: 0;
+}
+    
+    
+}
+@media screen and (max-width:481px){
+
+}
